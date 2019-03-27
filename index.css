@@ -1,0 +1,566 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'proxima_nova_ltsemibold';
+    background-color: #eee;
+}
+.row{
+    width: 100%;
+}
+.container-fluid{
+    max-height: auto;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+#wrapper{
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+/*Navbar*/
+#nav{
+    height: 50px;
+}
+
+ul{
+    float: right;
+    margin-right: 12px;
+}
+#nav, a{
+    color: black !important;
+    font-family: 'proxima_nova_ltthin';
+    cursor: pointer;
+    text-decoration: none !important;
+}
+ul, li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+/*Dropdown Menu*/
+.nav {
+    background: #fff;
+    position: relative;
+    z-index: 1000;
+    display: none;
+    height: 50px;
+  }
+  
+
+  .nav .logo i:hover {
+    color: #e74c3c;
+    transition: color 0.3s;
+  }
+  
+
+  .nav .main-nav .hamburger-nav::after {
+    font-family: fontawesome;
+    content: "\f0c9";
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 11px;
+    right: 20px;
+    cursor: pointer;
+  }
+  
+ 
+  .nav .main-nav .menu {
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 101%;
+    padding-left: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+
+  .nav .main-nav .menu a {
+    display: block;
+    background: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 0.5px solid rgba(200, 200, 200, 0.2);
+  }
+ 
+  .nav .main-nav .menu a:hover {
+    background: black;
+    transition: background 0.3s ease;
+  }
+  
+
+  .nav .main-nav .menu a:hover li {
+    color: white;
+  }
+  
+  
+  .nav .main-nav .menu a li {
+    color: black;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+
+.nav, ul{
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+/*First*/
+#first{
+    position:relative;
+    height: 300px;
+}
+#logo{
+    height: 180px;
+    margin-left: 5%;
+}
+
+#second{
+    width: 100%;
+    position: relative;
+}
+
+ #introtext{
+    text-align: left;
+    font-size: 26px;
+    position:absolute;
+    left:5%;
+    top:237px;
+    padding: 0;
+}
+
+#shape1{
+		top: 0;
+        left: 0;
+        margin-bottom:-7%;
+        z-index:-1;
+        width:100%;
+}
+
+#apple{
+        position: absolute;
+		top: 180px;
+        left:5%;
+        height: 50px;
+}
+#play{
+    position: absolute;
+		top: 120px;
+        left:5%;
+        height: 46px;
+}
+#downbutton{
+    position: absolute; 
+    top: 80%;
+    left: 50%;
+}
+#downbutton:hover{
+    opacity: 0.7;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+/*Third section*/
+
+#third{
+    background: #c0d180;
+    padding-top:100px;
+    position: relative;
+    z-index: 20;
+   
+}
+#third div{
+    text-align: center;
+    margin-bottom:0px;
+}
+#third h1{
+    margin-bottom: 80px;
+    text-align: center;
+    
+}
+
+
+#third-first-row{
+    margin-top:30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.first-div,.second-div{
+    display:inline-block;
+    width: 45%;
+    height: 100px;
+}
+.first-div{
+    border-right:2px solid #ffff;
+}
+#third p{
+    display: inline-block;
+    
+}
+#third-third-row{
+    margin-top: 30px;
+}
+
+.I, .II, .III, .IV, .V, .VI, .VII{
+    font-size: 62px;
+    font-size: 2.5vw;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    
+}
+#I, #II, #III, #IV, #V, #VI,#VII{
+    display: inline-block;
+    
+}
+
+#direct{
+    text-align: left;
+}
+
+p{
+    font-size: 20px;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+#fourth{
+    background-color: #fed86d;
+    margin: 0;
+    height: auto;
+    padding: 80px 0px;
+    display: table;
+    position: relative;
+    
+}
+
+#circle1, #circle2,#circle3,#circle4{
+    height: 150px;
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 100px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 30px;
+}
+
+#inner1{
+    background-image: url('003-cash.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+#inner2{
+    background-image: url('002-technology.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+#inner3{
+    background-image: url('001-hourglass.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+#inner4{
+    background-image: url('wallet.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+
+/*Fourth*/
+
+#shape2{
+    margin: 0;
+    padding: 0;
+    margin-top:-35%;
+    width:100%;
+    z-index: 2;
+}
+#price-wrapper{
+    position: absolute;
+    top:20%;
+    left:50%;
+    width: 40%;
+    text-align: right;
+
+    
+}
+
+#price1{
+    font-family: 'proxima_nova_ltthin';
+    font-size: 40px;
+
+    font-weight: bold;
+
+}
+
+#price2{
+    font-size: 60px;
+
+
+}
+
+
+/*Footer*/
+
+footer{
+    height: 110px;
+    background: white;
+    padding: 35px;
+
+}
+
+footer, p{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width:780px) {
+    .nav{
+        display: block;
+      }
+      ul{
+        display: none;
+      }
+   
+      .nav .main-nav{
+        display: block;
+      }
+    .container-fluid{
+        max-width: 100%;
+    }
+    ul, a{
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    #downbutton{
+        display: none;
+    }
+    #introtext{
+        font-size: 20px;
+        top: 205px;
+    }
+    #logo{
+        height: 150px;
+    }
+    #apple{
+        height: 40px;
+        top:90px;
+    }
+    #play{
+        
+            top: 37px;
+            height: 38px;
+    }
+    #downbutton{
+        top: 500px;
+        height: 40px;
+    }
+    #circle1, #circle2,#circle3,#circle4{
+        display:none;
+    }
+  
+    h1{
+        font-size:28px;
+    }
+    .first-div, .second-div{
+        display:block;
+        border:none;
+        width:100%;
+    }
+    .I, .II, .III, .IV, .V, .VI, .VII{
+        font-size:40px;
+    }
+    p, #direct{
+        font-size:18px;
+    }
+    #third{
+        margin-top:12px;
+        height:auto;
+    }
+    
+    .first-div{
+        height:auto;
+    }
+    #price-wrapper{
+        position: absolute;
+        top: 20%;
+        left:50%;
+        width: 40%;
+        text-align: right;
+        
+        }
+    
+        #price1{
+            font-size: 30px;
+            font-weight: bold;
+        }
+    
+        #price2{
+            font-size: 40px;
+        }
+        #price3{
+            font-size:20px;
+        }
+        #start{
+        font-size: 23px;
+        width: 30%;
+        }
+        
+
+        
+        footer{
+        height: 90px;
+    }
+    
+    footer, p{
+        font-size: 14px;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .container-fluid{
+        max-width: 100%;
+    }
+    ul, a{
+        font-size: 12px;
+        max-width: 100%;
+    }
+
+    #introtext{
+        font-size: 16px;
+        top: 170px;
+    }
+    #logo{
+        height: 120px;
+    }
+    #apple{
+        height: 35px;
+        top:40px;
+    }
+    #play{
+        
+         top: 1px;
+        height: 32.1px;
+    }
+    #downbutton{
+        top: 450px;
+        height: 40px;
+    }
+    h1{
+        font-size:20px;
+    }
+    .I, .II, .III, .IV, .V, .VI, .VII{
+        font-size:28px;
+    }
+    p, #direct{
+        font-size:14px;
+    } 
+      #price1{
+            font-size: 20px;
+        }
+    
+        #price2{
+            font-size: 30px;
+        }
+        #price3{
+            font-size:16px;
+        }
+        #start{
+        font-size: 20px;
+        width: 30%;
+        }
+        
+       
+        footer{
+        height: 70px;
+    }
+    
+    footer, p{
+        font-size: 12px;
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #price-wrapper{
+        top: 9%;
+    }
+    
+    #apple2{
+        left:75%;
+        height:32%
+    }
+    #start{
+        font-size: 18px;
+        width: 35%;
+    }
+    #introtext{
+        top:187px;
+    }
+}
+@media screen and (max-width:1000px){
+    
+
+    
+}
